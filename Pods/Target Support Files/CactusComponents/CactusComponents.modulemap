@@ -1,0 +1,6 @@
+framework module CactusComponents {
+  umbrella header "CactusComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

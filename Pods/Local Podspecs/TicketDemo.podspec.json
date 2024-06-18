@@ -1,0 +1,23 @@
+{
+  "name": "CactusComponents",
+  "version": "0.0.1",
+  "summary": "Specialized Library of styled SwiftUI components",
+  "description": "CactusComponents are the native UI components, screens, and experiences included in the Cactus Art&Design app",
+  "homepage": "https://github.com/Cactus-Art-Design",
+  "license": "MIT",
+  "authors": {
+    "Brian-Masse": "50341047+Brian-Masse@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Cactus-Art-Design.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CactusComponents/**/*.{swift}",
+  "exclude_files": "CactusComponents/CactusComponentsApp.swift, ContentView.swift",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

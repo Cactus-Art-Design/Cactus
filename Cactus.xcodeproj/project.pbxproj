@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E54E674000E842268315EED /* Pods_Cactus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */; };
 		C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDA2C224875003A7737 /* CactusApp.swift */; };
 		C9A02BDD2C224875003A7737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDC2C224875003A7737 /* ContentView.swift */; };
 		C9A02BDF2C224877003A7737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A02BDE2C224877003A7737 /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E62633BF2424866B537279F /* Pods-Cactus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cactus.release.xcconfig"; path = "Target Support Files/Pods-Cactus/Pods-Cactus.release.xcconfig"; sourceTree = "<group>"; };
+		92371F448A38783A4CF470F9 /* Pods-Cactus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cactus.debug.xcconfig"; path = "Target Support Files/Pods-Cactus/Pods-Cactus.debug.xcconfig"; sourceTree = "<group>"; };
 		C9A02BD72C224875003A7737 /* Cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A02BDA2C224875003A7737 /* CactusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusApp.swift; sourceTree = "<group>"; };
 		C9A02BDC2C224875003A7737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		C9A02BF22C224878003A7737 /* CactusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CactusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A02BF62C224878003A7737 /* CactusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITests.swift; sourceTree = "<group>"; };
 		C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cactus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E54E674000E842268315EED /* Pods_Cactus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABB5069922C3AB087DA6CF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9A02BCE2C224875003A7737 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +92,8 @@
 				C9A02BEB2C224877003A7737 /* CactusTests */,
 				C9A02BF52C224878003A7737 /* CactusUITests */,
 				C9A02BD82C224875003A7737 /* Products */,
+				CA7BF6381422CA374802E88B /* Pods */,
+				ABB5069922C3AB087DA6CF61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +144,15 @@
 			path = CactusUITests;
 			sourceTree = "<group>";
 		};
+		CA7BF6381422CA374802E88B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92371F448A38783A4CF470F9 /* Pods-Cactus.debug.xcconfig */,
+				4E62633BF2424866B537279F /* Pods-Cactus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9A02BFC2C224878003A7737 /* Build configuration list for PBXNativeTarget "Cactus" */;
 			buildPhases = (
+				54DD5C26AB16F2E945FAE23D /* [CP] Check Pods Manifest.lock */,
 				C9A02BD32C224875003A7737 /* Sources */,
 				C9A02BD42C224875003A7737 /* Frameworks */,
 				C9A02BD52C224875003A7737 /* Resources */,
+				6C515D99F7E7840E8513F24C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54DD5C26AB16F2E945FAE23D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cactus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C515D99F7E7840E8513F24C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9A02BD32C224875003A7737 /* Sources */ = {
@@ -413,6 +481,7 @@
 		};
 		C9A02BFD2C224878003A7737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92371F448A38783A4CF470F9 /* Pods-Cactus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -423,6 +492,7 @@
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -451,6 +521,7 @@
 		};
 		C9A02BFE2C224878003A7737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E62633BF2424866B537279F /* Pods-Cactus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +532,7 @@
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
