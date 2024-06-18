@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDA2C224875003A7737 /* CactusApp.swift */; };
+		C9A02BDD2C224875003A7737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDC2C224875003A7737 /* ContentView.swift */; };
+		C9A02BDF2C224877003A7737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A02BDE2C224877003A7737 /* Assets.xcassets */; };
+		C9A02BE32C224877003A7737 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A02BE22C224877003A7737 /* Preview Assets.xcassets */; };
+		C9A02BED2C224877003A7737 /* CactusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BEC2C224877003A7737 /* CactusTests.swift */; };
+		C9A02BF72C224878003A7737 /* CactusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BF62C224878003A7737 /* CactusUITests.swift */; };
+		C9A02BF92C224878003A7737 /* CactusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A02BE92C224877003A7737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A02BCF2C224875003A7737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A02BD62C224875003A7737;
+			remoteInfo = Cactus;
+		};
+		C9A02BF32C224878003A7737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A02BCF2C224875003A7737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A02BD62C224875003A7737;
+			remoteInfo = Cactus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9A02BD72C224875003A7737 /* Cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A02BDA2C224875003A7737 /* CactusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusApp.swift; sourceTree = "<group>"; };
+		C9A02BDC2C224875003A7737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9A02BDE2C224877003A7737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A02BE02C224877003A7737 /* Cactus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cactus.entitlements; sourceTree = "<group>"; };
+		C9A02BE22C224877003A7737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9A02BE82C224877003A7737 /* CactusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CactusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A02BEC2C224877003A7737 /* CactusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusTests.swift; sourceTree = "<group>"; };
+		C9A02BF22C224878003A7737 /* CactusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CactusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A02BF62C224878003A7737 /* CactusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITests.swift; sourceTree = "<group>"; };
+		C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A02BD42C224875003A7737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A02BE52C224877003A7737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A02BEF2C224878003A7737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A02BCE2C224875003A7737 = {
+			isa = PBXGroup;
+			children = (
+				C9A02BD92C224875003A7737 /* Cactus */,
+				C9A02BEB2C224877003A7737 /* CactusTests */,
+				C9A02BF52C224878003A7737 /* CactusUITests */,
+				C9A02BD82C224875003A7737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A02BD82C224875003A7737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A02BD72C224875003A7737 /* Cactus.app */,
+				C9A02BE82C224877003A7737 /* CactusTests.xctest */,
+				C9A02BF22C224878003A7737 /* CactusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A02BD92C224875003A7737 /* Cactus */ = {
+			isa = PBXGroup;
+			children = (
+				C9A02BDA2C224875003A7737 /* CactusApp.swift */,
+				C9A02BDC2C224875003A7737 /* ContentView.swift */,
+				C9A02BDE2C224877003A7737 /* Assets.xcassets */,
+				C9A02BE02C224877003A7737 /* Cactus.entitlements */,
+				C9A02BE12C224877003A7737 /* Preview Content */,
+			);
+			path = Cactus;
+			sourceTree = "<group>";
+		};
+		C9A02BE12C224877003A7737 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9A02BE22C224877003A7737 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9A02BEB2C224877003A7737 /* CactusTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A02BEC2C224877003A7737 /* CactusTests.swift */,
+			);
+			path = CactusTests;
+			sourceTree = "<group>";
+		};
+		C9A02BF52C224878003A7737 /* CactusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A02BF62C224878003A7737 /* CactusUITests.swift */,
+				C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */,
+			);
+			path = CactusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A02BD62C224875003A7737 /* Cactus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A02BFC2C224878003A7737 /* Build configuration list for PBXNativeTarget "Cactus" */;
+			buildPhases = (
+				C9A02BD32C224875003A7737 /* Sources */,
+				C9A02BD42C224875003A7737 /* Frameworks */,
+				C9A02BD52C224875003A7737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cactus;
+			productName = Cactus;
+			productReference = C9A02BD72C224875003A7737 /* Cactus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A02BE72C224877003A7737 /* CactusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A02BFF2C224878003A7737 /* Build configuration list for PBXNativeTarget "CactusTests" */;
+			buildPhases = (
+				C9A02BE42C224877003A7737 /* Sources */,
+				C9A02BE52C224877003A7737 /* Frameworks */,
+				C9A02BE62C224877003A7737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A02BEA2C224877003A7737 /* PBXTargetDependency */,
+			);
+			name = CactusTests;
+			productName = CactusTests;
+			productReference = C9A02BE82C224877003A7737 /* CactusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9A02BF12C224878003A7737 /* CactusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A02C022C224878003A7737 /* Build configuration list for PBXNativeTarget "CactusUITests" */;
+			buildPhases = (
+				C9A02BEE2C224878003A7737 /* Sources */,
+				C9A02BEF2C224878003A7737 /* Frameworks */,
+				C9A02BF02C224878003A7737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A02BF42C224878003A7737 /* PBXTargetDependency */,
+			);
+			name = CactusUITests;
+			productName = CactusUITests;
+			productReference = C9A02BF22C224878003A7737 /* CactusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A02BCF2C224875003A7737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C9A02BD62C224875003A7737 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C9A02BE72C224877003A7737 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9A02BD62C224875003A7737;
+					};
+					C9A02BF12C224878003A7737 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9A02BD62C224875003A7737;
+					};
+				};
+			};
+			buildConfigurationList = C9A02BD22C224875003A7737 /* Build configuration list for PBXProject "Cactus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A02BCE2C224875003A7737;
+			productRefGroup = C9A02BD82C224875003A7737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A02BD62C224875003A7737 /* Cactus */,
+				C9A02BE72C224877003A7737 /* CactusTests */,
+				C9A02BF12C224878003A7737 /* CactusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A02BD52C224875003A7737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A02BE32C224877003A7737 /* Preview Assets.xcassets in Resources */,
+				C9A02BDF2C224877003A7737 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A02BE62C224877003A7737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A02BF02C224878003A7737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A02BD32C224875003A7737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A02BDD2C224875003A7737 /* ContentView.swift in Sources */,
+				C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A02BE42C224877003A7737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A02BED2C224877003A7737 /* CactusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A02BEE2C224878003A7737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A02BF72C224878003A7737 /* CactusUITests.swift in Sources */,
+				C9A02BF92C224878003A7737 /* CactusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A02BEA2C224877003A7737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A02BD62C224875003A7737 /* Cactus */;
+			targetProxy = C9A02BE92C224877003A7737 /* PBXContainerItemProxy */;
+		};
+		C9A02BF42C224878003A7737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A02BD62C224875003A7737 /* Cactus */;
+			targetProxy = C9A02BF32C224878003A7737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9A02BFA2C224878003A7737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A02BFB2C224878003A7737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C9A02BFD2C224878003A7737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cactus/Cactus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cactus/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.Cactus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9A02BFE2C224878003A7737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cactus/Cactus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cactus/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.Cactus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9A02C002C224878003A7737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cactus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cactus";
+			};
+			name = Debug;
+		};
+		C9A02C012C224878003A7737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cactus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cactus";
+			};
+			name = Release;
+		};
+		C9A02C032C224878003A7737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cactus;
+			};
+			name = Debug;
+		};
+		C9A02C042C224878003A7737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cactus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A02BD22C224875003A7737 /* Build configuration list for PBXProject "Cactus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A02BFA2C224878003A7737 /* Debug */,
+				C9A02BFB2C224878003A7737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A02BFC2C224878003A7737 /* Build configuration list for PBXNativeTarget "Cactus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A02BFD2C224878003A7737 /* Debug */,
+				C9A02BFE2C224878003A7737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A02BFF2C224878003A7737 /* Build configuration list for PBXNativeTarget "CactusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A02C002C224878003A7737 /* Debug */,
+				C9A02C012C224878003A7737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A02C022C224878003A7737 /* Build configuration list for PBXNativeTarget "CactusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A02C032C224878003A7737 /* Debug */,
+				C9A02C042C224878003A7737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A02BCF2C224875003A7737 /* Project object */;
+}
