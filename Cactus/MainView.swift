@@ -8,15 +8,14 @@
 import SwiftUI
 import CactusComponents
 
-struct ContentView: View {
+struct MainView: View {
+    
     var body: some View {
-        
-        
-        TicketComponent.shared.preview()
+        Text("main view")
         
     }
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }

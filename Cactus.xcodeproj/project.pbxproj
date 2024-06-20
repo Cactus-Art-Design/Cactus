@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		8E54E674000E842268315EED /* Pods_Cactus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */; };
 		C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDA2C224875003A7737 /* CactusApp.swift */; };
-		C9A02BDD2C224875003A7737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDC2C224875003A7737 /* ContentView.swift */; };
+		C9A02BDD2C224875003A7737 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDC2C224875003A7737 /* MainView.swift */; };
 		C9A02BDF2C224877003A7737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A02BDE2C224877003A7737 /* Assets.xcassets */; };
 		C9A02BE32C224877003A7737 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A02BE22C224877003A7737 /* Preview Assets.xcassets */; };
 		C9A02BED2C224877003A7737 /* CactusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BEC2C224877003A7737 /* CactusTests.swift */; };
 		C9A02BF72C224878003A7737 /* CactusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BF62C224878003A7737 /* CactusUITests.swift */; };
 		C9A02BF92C224878003A7737 /* CactusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */; };
+		C9F153C92C2464C400237130 /* CactusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F153C82C2464C400237130 /* CactusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		92371F448A38783A4CF470F9 /* Pods-Cactus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cactus.debug.xcconfig"; path = "Target Support Files/Pods-Cactus/Pods-Cactus.debug.xcconfig"; sourceTree = "<group>"; };
 		C9A02BD72C224875003A7737 /* Cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A02BDA2C224875003A7737 /* CactusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusApp.swift; sourceTree = "<group>"; };
-		C9A02BDC2C224875003A7737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9A02BDC2C224875003A7737 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C9A02BDE2C224877003A7737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A02BE02C224877003A7737 /* Cactus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cactus.entitlements; sourceTree = "<group>"; };
 		C9A02BE22C224877003A7737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		C9A02BF22C224878003A7737 /* CactusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CactusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A02BF62C224878003A7737 /* CactusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITests.swift; sourceTree = "<group>"; };
 		C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9F153C82C2464C400237130 /* CactusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusView.swift; sourceTree = "<group>"; };
 		DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cactus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				C9A02BDA2C224875003A7737 /* CactusApp.swift */,
-				C9A02BDC2C224875003A7737 /* ContentView.swift */,
+				C9F153C82C2464C400237130 /* CactusView.swift */,
+				C9A02BDC2C224875003A7737 /* MainView.swift */,
 				C9A02BDE2C224877003A7737 /* Assets.xcassets */,
 				C9A02BE02C224877003A7737 /* Cactus.entitlements */,
 				C9A02BE12C224877003A7737 /* Preview Content */,
@@ -164,7 +167,7 @@
 				C9A02BD32C224875003A7737 /* Sources */,
 				C9A02BD42C224875003A7737 /* Frameworks */,
 				C9A02BD52C224875003A7737 /* Resources */,
-				6C515D99F7E7840E8513F24C /* [CP] Embed Pods Frameworks */,
+				4064CD387C424752C39A7D01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +222,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					C9A02BD62C224875003A7737 = {
 						CreatedOnToolsVersion = 15.3;
@@ -281,6 +284,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4064CD387C424752C39A7D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		54DD5C26AB16F2E945FAE23D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,23 +323,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C515D99F7E7840E8513F24C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cactus/Pods-Cactus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -327,7 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A02BDD2C224875003A7737 /* ContentView.swift in Sources */,
+				C9A02BDD2C224875003A7737 /* MainView.swift in Sources */,
+				C9F153C92C2464C400237130 /* CactusView.swift in Sources */,
 				C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +403,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -417,6 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -460,6 +466,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -472,6 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -488,6 +496,7 @@
 				CODE_SIGN_ENTITLEMENTS = Cactus/Cactus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Cactus/Preview Content\"";
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -507,6 +516,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.Cactus";
@@ -528,6 +538,7 @@
 				CODE_SIGN_ENTITLEMENTS = Cactus/Cactus.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Cactus/Preview Content\"";
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -547,6 +558,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.Cactus";
@@ -566,6 +578,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
@@ -589,6 +602,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
@@ -611,6 +625,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
@@ -633,6 +648,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;

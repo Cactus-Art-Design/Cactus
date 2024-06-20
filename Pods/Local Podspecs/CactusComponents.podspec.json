@@ -8,19 +8,15 @@
   "authors": {
     "Brian-Masse": "50341047+Brian-Masse@users.noreply.github.com"
   },
+  "platforms": {
+    "ios": "15.0"
+  },
   "source": {
     "git": "https://github.com/Cactus-Art-Design/CactusComponents.git",
     "tag": "0.0.1"
   },
-  "source_files": "CactusComponents/**/*.{swift}",
-  "exclude_files": [
-    "CactusComponents/CactusComponentsApp.swift",
-    "CactusComponents/ContentView.swift"
-  ],
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
-  }
+  "source_files": [
+    "CactusComponents/Components/**/*.{swift}",
+    "CactusComponents/CactusComponent.swift"
+  ]
 }
