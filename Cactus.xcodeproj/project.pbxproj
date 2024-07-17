@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8E54E674000E842268315EED /* Pods_Cactus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */; };
+		C90374752C24D3AA007DCA5E /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90374742C24D3AA007DCA5E /* AuthenticationView.swift */; };
+		C90374782C24D40E007DCA5E /* RealmOpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90374772C24D40E007DCA5E /* RealmOpeningView.swift */; };
+		C903747A2C24FA8C007DCA5E /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90374792C24FA8C007DCA5E /* PermissionManager.swift */; };
 		C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDA2C224875003A7737 /* CactusApp.swift */; };
 		C9A02BDD2C224875003A7737 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BDC2C224875003A7737 /* MainView.swift */; };
 		C9A02BDF2C224877003A7737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A02BDE2C224877003A7737 /* Assets.xcassets */; };
@@ -15,7 +18,16 @@
 		C9A02BED2C224877003A7737 /* CactusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BEC2C224877003A7737 /* CactusTests.swift */; };
 		C9A02BF72C224878003A7737 /* CactusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BF62C224878003A7737 /* CactusUITests.swift */; };
 		C9A02BF92C224878003A7737 /* CactusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */; };
+		C9B462A02C486CDC001A729A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B4629F2C486CDC001A729A /* test.swift */; };
+		C9B462A12C486D8E001A729A /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = C9B4629F2C486CDC001A729A /* test.swift */; settings = {ASSET_TAGS = (sourceCode, ); }; };
+		C9B462A22C486EA5001A729A /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = C9B4629F2C486CDC001A729A /* test.swift */; settings = {ASSET_TAGS = (sourceCode, ); }; };
+		C9B462A42C4870AF001A729A /* test2.py in Sources */ = {isa = PBXBuildFile; fileRef = C9B462A32C4870AF001A729A /* test2.py */; };
+		C9B462A52C4870B8001A729A /* test2.py in Resources */ = {isa = PBXBuildFile; fileRef = C9B462A32C4870AF001A729A /* test2.py */; };
+		C9B462A72C487275001A729A /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9B462A62C487275001A729A /* test.txt */; };
 		C9F153C92C2464C400237130 /* CactusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F153C82C2464C400237130 /* CactusView.swift */; };
+		C9F153D12C24A02E00237130 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F153D02C24A02E00237130 /* RealmManager.swift */; };
+		C9F153D32C24A88600237130 /* CactusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F153D22C24A88600237130 /* CactusModel.swift */; };
+		C9F153D92C24AB7C00237130 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9F153D82C24AB7C00237130 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,9 @@
 /* Begin PBXFileReference section */
 		4E62633BF2424866B537279F /* Pods-Cactus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cactus.release.xcconfig"; path = "Target Support Files/Pods-Cactus/Pods-Cactus.release.xcconfig"; sourceTree = "<group>"; };
 		92371F448A38783A4CF470F9 /* Pods-Cactus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cactus.debug.xcconfig"; path = "Target Support Files/Pods-Cactus/Pods-Cactus.debug.xcconfig"; sourceTree = "<group>"; };
+		C90374742C24D3AA007DCA5E /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		C90374772C24D40E007DCA5E /* RealmOpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmOpeningView.swift; sourceTree = "<group>"; };
+		C90374792C24FA8C007DCA5E /* PermissionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
 		C9A02BD72C224875003A7737 /* Cactus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cactus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A02BDA2C224875003A7737 /* CactusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusApp.swift; sourceTree = "<group>"; };
 		C9A02BDC2C224875003A7737 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -49,7 +64,12 @@
 		C9A02BF22C224878003A7737 /* CactusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CactusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A02BF62C224878003A7737 /* CactusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITests.swift; sourceTree = "<group>"; };
 		C9A02BF82C224878003A7737 /* CactusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9B4629F2C486CDC001A729A /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		C9B462A32C4870AF001A729A /* test2.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = test2.py; sourceTree = SOURCE_ROOT; };
+		C9B462A62C487275001A729A /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		C9F153C82C2464C400237130 /* CactusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusView.swift; sourceTree = "<group>"; };
+		C9F153D02C24A02E00237130 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C9F153D22C24A88600237130 /* CactusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CactusModel.swift; sourceTree = "<group>"; };
 		DDADAFE4DE8ECB26C5A169BF /* Pods_Cactus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cactus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F153D92C24AB7C00237130 /* RealmSwift in Frameworks */,
 				8E54E674000E842268315EED /* Pods_Cactus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,9 +108,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C90374762C24D3B7007DCA5E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C9F153D02C24A02E00237130 /* RealmManager.swift */,
+				C90374792C24FA8C007DCA5E /* PermissionManager.swift */,
+				C90374742C24D3AA007DCA5E /* AuthenticationView.swift */,
+				C90374772C24D40E007DCA5E /* RealmOpeningView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		C9A02BCE2C224875003A7737 = {
 			isa = PBXGroup;
 			children = (
+				C9B4629F2C486CDC001A729A /* test.swift */,
+				C9B462A62C487275001A729A /* test.txt */,
+				C9B462A32C4870AF001A729A /* test2.py */,
 				C9A02BD92C224875003A7737 /* Cactus */,
 				C9A02BEB2C224877003A7737 /* CactusTests */,
 				C9A02BF52C224878003A7737 /* CactusUITests */,
@@ -112,9 +147,8 @@
 		C9A02BD92C224875003A7737 /* Cactus */ = {
 			isa = PBXGroup;
 			children = (
-				C9A02BDA2C224875003A7737 /* CactusApp.swift */,
-				C9F153C82C2464C400237130 /* CactusView.swift */,
-				C9A02BDC2C224875003A7737 /* MainView.swift */,
+				C90374762C24D3B7007DCA5E /* Authentication */,
+				C9F153CF2C249FD400237130 /* Main */,
 				C9A02BDE2C224877003A7737 /* Assets.xcassets */,
 				C9A02BE02C224877003A7737 /* Cactus.entitlements */,
 				C9A02BE12C224877003A7737 /* Preview Content */,
@@ -147,6 +181,17 @@
 			path = CactusUITests;
 			sourceTree = "<group>";
 		};
+		C9F153CF2C249FD400237130 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C9F153D22C24A88600237130 /* CactusModel.swift */,
+				C9A02BDA2C224875003A7737 /* CactusApp.swift */,
+				C9F153C82C2464C400237130 /* CactusView.swift */,
+				C9A02BDC2C224875003A7737 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		CA7BF6381422CA374802E88B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +219,9 @@
 			dependencies = (
 			);
 			name = Cactus;
+			packageProductDependencies = (
+				C9F153D82C24AB7C00237130 /* RealmSwift */,
+			);
 			productName = Cactus;
 			productReference = C9A02BD72C224875003A7737 /* Cactus.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +269,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					sourceCode,
+				);
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -246,6 +297,9 @@
 				Base,
 			);
 			mainGroup = C9A02BCE2C224875003A7737;
+			packageReferences = (
+				C9F153D72C24AB7C00237130 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = C9A02BD82C224875003A7737 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,8 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B462A52C4870B8001A729A /* test2.py in Resources */,
+				C9B462A22C486EA5001A729A /* test.swift in Resources */,
 				C9A02BE32C224877003A7737 /* Preview Assets.xcassets in Resources */,
 				C9A02BDF2C224877003A7737 /* Assets.xcassets in Resources */,
+				C9B462A72C487275001A729A /* test.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B462A12C486D8E001A729A /* test.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +389,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A02BDD2C224875003A7737 /* MainView.swift in Sources */,
+				C9F153D12C24A02E00237130 /* RealmManager.swift in Sources */,
+				C90374752C24D3AA007DCA5E /* AuthenticationView.swift in Sources */,
 				C9F153C92C2464C400237130 /* CactusView.swift in Sources */,
+				C9B462A02C486CDC001A729A /* test.swift in Sources */,
+				C9F153D32C24A88600237130 /* CactusModel.swift in Sources */,
+				C90374782C24D40E007DCA5E /* RealmOpeningView.swift in Sources */,
+				C903747A2C24FA8C007DCA5E /* PermissionManager.swift in Sources */,
+				C9B462A42C4870AF001A729A /* test2.py in Sources */,
 				C9A02BDB2C224875003A7737 /* CactusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +489,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -481,6 +547,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACH_O_TYPE = mh_execute;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -500,6 +567,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cactus/Preview Content\"";
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -542,6 +610,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cactus/Preview Content\"";
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -582,6 +651,7 @@
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusTests";
@@ -606,6 +676,7 @@
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusTests";
@@ -629,6 +700,7 @@
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusUITests";
@@ -652,6 +724,7 @@
 				DEVELOPMENT_TEAM = LN4JU8GNV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACH_O_TYPE = mh_bundle;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.CactusUITests";
@@ -705,6 +778,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9F153D72C24AB7C00237130 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9F153D82C24AB7C00237130 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9F153D72C24AB7C00237130 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9A02BCF2C224875003A7737 /* Project object */;
 }
